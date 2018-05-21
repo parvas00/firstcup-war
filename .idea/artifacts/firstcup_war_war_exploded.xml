@@ -6,6 +6,15 @@
         <element id="directory" name="classes">
           <element id="module-output" name="firstcup-war" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:javax.persistence:2.2.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.asm:2.7.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.antlr:2.7.1" />
+          <element id="library" level="project" name="Maven: org.glassfish:javax.json:1.0.4" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:2.7.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.core:2.7.1" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/firstcup-war/META-INF/MANIFEST.MF" />

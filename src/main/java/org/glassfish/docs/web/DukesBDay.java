@@ -59,7 +59,7 @@ public class DukesBDay implements Serializable {
         try {
             Client client = ClientBuilder.newClient();
             WebTarget target =
-                    client.target("http://localhost:8080/new-dukes-age/webapi/dukesAge");
+                    client.target("http://localhost:8080/dukes-age/api/dukesAge");
             String response = target.request().get(String.class);
             age = Integer.parseInt(response);
         } catch (IllegalArgumentException | NullPointerException |

@@ -8,13 +8,14 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
 
     <application>
-        <resource-bundle>
-            <base-name>org.glassfish.docs.web.WebMessages</base-name>
-            <var>bundle</var>
-        </resource-bundle>
+        <!--<resource-bundle>-->
+            <!--&lt;!&ndash;<base-name>org.glassfish.docs.web.WebMessages</base-name>&ndash;&gt;-->
+            <!--<base-name>resources.firstcup.web.WebMessages</base-name>-->
+            <!--<var>bundle</var>-->
+        <!--</resource-bundle>-->
         <locale-config>
-            <default-locale>en</default-locale>
-            <supported-locale>es</supported-locale>
+            <default-locale>es</default-locale>
+            <!--<supported-locale>es</supported-locale>-->
         </locale-config>
     </application>
 </faces-config>

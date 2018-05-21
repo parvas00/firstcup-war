@@ -17,30 +17,30 @@
     </h:head>
     <h:body>
         <h:form>
-            <h:outputText value="#{bundle.YouAre} "/>
-            <h:outputText value="#{bundle.SameAge}"
+            <h:outputText value="YouAre "/>
+            <h:outputText value="SameAge"
                           rendered="#{dukesBDay.ageDiff == 0}"/>
             <h:outputText value="#{dukesBDay.absAgeDiff}"
                           rendered="#{dukesBDay.ageDiff lt 0}"/>
-            <h:outputText value=" #{bundle.Year} "
+            <h:outputText value=" Year "
                           rendered="#{dukesBDay.ageDiff == -1}"/>
-            <h:outputText value=" #{bundle.Years} "
+            <h:outputText value=" Years "
                           rendered="#{dukesBDay.ageDiff lt -1}"/>
-            <h:outputText value="#{bundle.Younger}"
+            <h:outputText value="Younger"
                           rendered="#{dukesBDay.ageDiff lt 0}"/>
             <h:outputText value="#{dukesBDay.absAgeDiff}"
                           rendered="#{dukesBDay.ageDiff gt 0}"/>
-            <h:outputText value=" #{bundle.Year} "
+            <h:outputText value=" Year "
                           rendered="#{dukesBDay.ageDiff == 1}"/>
-            <h:outputText value=" #{bundle.Years} "
+            <h:outputText value=" Years "
                           rendered="#{dukesBDay.ageDiff gt 1}"/>
-            <h:outputText value="#{bundle.Older}"
+            <h:outputText value="Older"
                           rendered="#{dukesBDay.ageDiff gt 0}"/>
             <p/>
             <h:outputText
-                    value="#{bundle.AverageAge} #{dukesBDay.averageAgeDifference}." />
+                    value="AverageAge #{dukesBDay.averageAgeDifference}." />
             <p/>
-            <h:commandButton id="back" value="#{bundle.Back}" action="greeting"/>
+            <h:commandButton id="back" value="Back" action="greeting"/>
         </h:form>
     </h:body>
 </html>

@@ -19,17 +19,17 @@
     <h:body>
         <h:form>
             <h2>
-                <h:outputText value="#{bundle.Welcome}"/>
+                <h:outputText value="Hi. My name is Duke. Let us find out who is older -- you or I"/>
             </h2>
-            <h:outputText value="#{bundle.DukeIs} "/>
-            <h:outputText value="#{dukesBDay.age} #{bundle.YearsOldToday}"/>
+            <h:outputText value="DukeIs "/>
+            <h:outputText value="#{dukesBDay.age} YearsOldToday"/>
             <p/>
-            <h:outputText value="#{bundle.Instructions}"/>
+            <h:outputText value="Instructions"/>
             <p/>
-            <h:outputText value="#{bundle.YourBD} "/>
+            <h:outputText value="YourBD "/>
             <fc:inputDate id="userBirthday" date="#{dukesBDay.yourBD}" />
             <p/>
-            <h:commandButton value="#{bundle.Submit}"
+            <h:commandButton value="Submit"
                              action="#{dukesBDay.processBirthday}"/>
         </h:form>
 
